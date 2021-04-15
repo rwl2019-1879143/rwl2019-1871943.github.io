@@ -1,0 +1,157 @@
+body {
+    background-image: url('sunset.jpg');
+    background-color: lightblue;
+    
+}
+p {
+    color: white;
+    font-family: "Arial";
+    padding: 35px;
+    hanging-punctuation: first;
+}
+h3 {
+    color: #ff00ea;
+    font-size: 40px;
+    font-family: "Passion One";
+    margin-bottom: 0px;
+}
+a {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+#Header {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: dotted 8px black;
+    text-align: center;
+    background-color: #8D41D5;
+    outline: 5px dashed rgb(38, 0, 128);
+    
+    
+}
+#Header h1 {
+    font-size: 60px;
+    font-family: "Passion One";
+    color: #00ffb3;
+    font-weight: lighter;
+    
+
+}
+
+#LeftImage {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    float: right;
+    text-align: center;
+    padding-bottom: 8px;
+    background-color: #d54141;
+    font-style: italic;
+}
+#RightImage {
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: dotted 20px black;
+    float: left;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #d54141;
+    font-style: italic;
+    font-size: 120%;
+    border-color: orange;
+    letter-spacing: 2px;
+}
+#BottomNav {
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: dotted 20px black;
+    float: bottom;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #d54141;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+
+}
+#AboutMe{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: dotted 8px black;
+    text-align: center;
+    padding: 15px;
+    background-color: #4341d5;
+    font-style: normal;
+    border-spacing: 15px;
+
+
+}
+#PhotoMargin {
+    width: 340px;
+    margin:20px;
+    border: solid 20px black;
+    text-align:center;
+    background-color: black;
+
+
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+#box{
+
+    float: right;
+}
