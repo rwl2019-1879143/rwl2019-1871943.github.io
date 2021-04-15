@@ -1,0 +1,112 @@
+body {
+    background-image: url('dark_wood.png');
+    background-color: lightblue;
+    filter: grayscale(25%);
+    
+}
+p {
+    color: white;
+    font-family: "Arial";
+    text-decoration: underline;
+    text-decoration-color: red;
+    letter-spacing: 3px;
+    padding: 35px;
+    hanging-punctuation: first;
+}
+h3 {
+    color: #FFBC00;
+    font-size: 40px;
+    font-family: "Passion One";
+    margin-bottom: 0px;
+}
+a {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+#Header {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: dotted 8px black;
+    text-align: center;
+    text-indent: 50px;
+    text-shadow: 2px 2px #ff0000;
+    background-color: #8D41D5;
+    outline: 5px dotted green;
+    
+    
+}
+#Header h1 {
+    font-size: 60px;
+    font-family: "Passion One";
+    color: #FFBC00;
+    font-weight: bold;
+    opacity: 0.5;
+    
+
+}
+
+#LeftNav {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    float: left;
+    text-align: center;
+    padding-bottom: 8px;
+    background-color: #8D41D5;
+    opacity: 0.5;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+
+}
+#Content{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    padding: 15px;
+    background-color: #8D41D5;
+    text-align: justify; /* For Edge */
+    text-align-last: center;
+}
+#Footer {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    background-color: #8D41D5;
+    opacity: 0.5;
+    text-decoration: underline overline;
+    border: double;
+    text-decoration-style: wavy
+    
+}
+@media print {
+    footer {page-break-after: always;}
+  }
+  #example2 {
+    caption-side: top;
+  }
+  div {
+    animation: mymove 5s infinite;
+    resize: both;
+
+  }
+  .grid-container {
+  display: grid;
+  grid: 150px / auto auto auto;
+}
+img  {
+    float: bottom;
+  }
