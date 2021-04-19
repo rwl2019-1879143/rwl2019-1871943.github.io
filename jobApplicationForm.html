@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Job Application</title>
+</head>
+<body>
+
+<h2>Job Application</h2>
+<h3>Computer Science</h3>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post"></form>
+
+	<fieldset>
+		<legend>My Account</legend>
+		<div class="field">
+			<label>Personal Email:</label> 
+			<input type="text" name="personalemail">
+		</div>
+		<div class="field">
+			<label>Email Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Repeat Email password:</label> 
+			<input type="password" name="password_r">
+		</div>
+		<div class="field">
+			<label>UW Email:</label> 
+			<input type="text" name="uw_email">
+		<div class="field">
+			<label>UW Password:</label> 
+			<input type="password" name="UW_password">
+		</div>
+		<div class="field">
+			<label>Repeat UW password:</label> 
+			<input type="password" name="UW_password_r">
+		</div>
+		<div class="field">
+			<input type="radio" name="photoid" value="in-state"> In-state <br> <input type="radio" name="out-of-state" value="out of state"> Out of State
+		</div>
+
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Information</legend>
+		<div class="field">
+			<label>First Name:</label> 
+			<input type="text" name="name">
+		</div>
+		<div class="field">
+			<label>Middle Name (Initials):</label> 
+			<input type="text" name="middlenameinitials">
+		</div>
+		<div class="field">
+			<label>Last Name:</label> 
+			<input type="text" name="lastname">
+		</div>
+		<div class="field">
+			<label>Age:</label> 
+			<input type="text" name="agenumber">
+		</div>
+		<div class="field">
+			Phone Number: <input type="text" name="phonenumber"><br> Emergency Phone Number: <input type="text" name="emergencyphonenumber">
+		</div>
+		<div class="field">
+			Social Security: <input type="text" name="social security"><br> Military ID: <input type="text" name="militaryid">
+		</div>
+		<div class="field">
+			<label>Street Address:</label> 
+			<input type="text" name="street">
+		</div>
+		<div class="field">
+			<label>City:</label> 
+			<input type="text" name="city">
+		</div>
+		<div class="field">
+			<label>State:</label> 
+			<select name="state">
+				<option value="" selected="true">Choose a State</option>
+				<option value="AL">Alabama</option>
+				<option value="AK">Alaska</option>
+				<option value="AZ">Arizona</option>
+				<option value="AR">Arkansas</option>
+				<option value="CA">California</option>
+				<option value="CO">Colorado</option>
+				<option value="CT">Connecticut</option>
+				<option value="DE">Delaware</option>
+				<option value="DC">District of Columbia</option>
+				<option value="FL">Florida</option>
+				<option value="GA">Georgia</option>
+				<option value="HI">Hawaii</option>
+				<option value="ID">Idaho</option>
+				<option value="IL">Illinois</option>
+				<option value="IN">Indiana</option>
+				<option value="IA">Iowa</option>
+				<option value="KS">Kansas</option>
+				<option value="KY">Kentucky</option>
+				<option value="LA">Louisiana</option>
+				<option value="ME">Maine</option>
+				<option value="MD">Maryland</option>
+				<option value="MA">Massachusetts</option>
+				<option value="MI">Michigan</option>
+				<option value="MN">Minnesota</option>
+				<option value="MS">Mississippi</option>
+				<option value="MO">Missouri</option>
+				<option value="MT">Montana</option>
+				<option value="NE">Nebraska</option>
+				<option value="NV">Nevada</option>
+				<option value="NH">New Hampshire</option>
+				<option value="NJ">New Jersey</option>
+				<option value="NM">New Mexico</option>
+				<option value="NY">New York</option>
+				<option value="NC">North Carolina</option>
+				<option value="ND">North Dakota</option>
+				<option value="OH">Ohio</option>
+				<option value="OK">Oklahoma</option>
+				<option value="OR">Oregon</option>
+				<option value="PA">Pennsylvania</option>
+				<option value="RI">Rhode Island</option>
+				<option value="SC">South Carolina</option>
+				<option value="SD">South Dakota</option>
+				<option value="TN">Tennessee</option>
+				<option value="TX">Texas</option>
+				<option value="UT">Utah</option>
+				<option value="VT">Vermont</option>
+				<option value="VA">Virginia</option>
+				<option value="WA">Washington</option>
+				<option value="WV">West Virginia</option>
+				<option value="WI">Wisconsin</option>
+				<option value="WY">Wyoming</option>
+			</select>
+		</div>
+		<div class="field">
+			<label>ZIP:</label> 
+			<input type="text" name="zip">
+		</div>
+		<div class="field">
+			<label>Do you live in a permanent resident?<br></label> 
+			<input type="radio" name="resident" value="yes"> Yes<br> <input type="radio" name="non-resident" value="no"> No
+		</div>
+		<div class="field">
+			<label>Have you ever been convicted of a felony?<br></label> 
+			<input type="radio" name="felony" value="yes"> Yes<br> <input type="radio" name="no_felony" value="no"> No
+		</div>
+		
+		<div class="field">
+			<label>What is your civil status?</label>
+			<ul>
+				<input type="checkbox" name="Single" value="unmarried">I am single<br> <input type="checkbox" name="married" value="partner">I have a husband/wife/partner
+			</ul>
+		</div>
+		<div class="field">
+			<label>What is your race/ethnicity? (Check all that apply)</label>
+			<ul>
+				<input type="checkbox" name="northamerican" value="american indian/alaskan">American Indian/Alaskan<br> <input type="checkbox" name="middleeastern" value="chinese/korean/vietnamese/japanese">Chinese/Korean/Vietnamese/Japanese <br><input type="checkbox" name="otherrace" value="other">Other
+			</ul>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Work Schedule and Programming Job</legend>
+
+			<label>Work Schedule on campus</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="su_until"></td>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="field">
+			<label><br>What tech companies have you worked with in the past? (Check all that apply)</label> 
+			<select name="techcompany"> <option value="microsoft">Microsoft</option> <option value="amazon">Amazon</option> <option value="facebook">Facebook</option> <option value="google">Google</option> </select>
+		</div>
+		<div class="field">
+			<label><br>What is your preferred computer programming language?</label> 
+			<select name="techcompany"> <option value="html">Html</option> <option value="java">Java</option> <option value="Python">Python</option> <option value="c++">C++</option> </select>
+		</div>
+		<div class="field">
+			<br><label>What programming job would you like to be in the company? (check all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="job_uxd" value="uxdesign">UX Designer</li>
+				<li><input type="checkbox" name="job_se" value="softwareengineer">Software Engineer</li>
+				<li><input type="checkbox" name="job_da" value="dataanalyst">Data Analyst</li>
+				<li><input type="checkbox" name="job_ce" value="computerengineer">Computer Engineer</li>
+			</ul>
+		</div>
+		<div class="field">
+			<label>Are you currently employed in state?</label> 
+			<input type="radio" name="employed" value="yes">Yes
+			<input type="radio" name="not_employed" value="no">No
+		</div>
+		<div class="field">
+			<br><label>How did you hear about us?</label> 
+			<input type="text" name="aboutus"><br><br>
+		</div>
+		<div class="field">
+			<label>Location Workspace</label><br>
+			<textarea name="location">Would you like to work on campus virtually? Please explain what computer or device you will work with us in this box.</textarea>
+		</div>
+	</fieldset>
+	
+
+	<fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field">
+			<label>What is your tech experience working in Seattle? (500 words)</label><br>
+			<textarea name="deserve" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>How does your programming experience describe who you are? (500 words)</label><br>
+			<textarea name="project" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>Describe your lived experience (500 words):</label><br>
+			<textarea name="experience" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>How did you overcome a personal challenge in the past? (500 words)</label><br>
+			<textarea name="challenge" rows="6" cols="60"></textarea>
+		</div>
+	</fieldset>
+
+	<br><br><input type="submit" value="Update and save form for later">
+	<br><br><input type="submit" value="Submit form as a PDF">
+	<br><br><input type="submit" value="Submit form">
+	
+	<br>
+
+
+
+</form>
+</body>
+</html>
